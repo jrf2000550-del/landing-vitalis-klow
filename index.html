@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>KLOW — Vitalis Lab</title>
-<meta name="description" content="Conocé KLOW, de la línea Wellness de Vitalis Lab. Información clara, atención personalizada y pago contraentrega.">
+<meta name="description" content="Conocé KLOW, de la línea Wellness de Vitalis Lab. Información clara y atención personalizada.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
@@ -295,26 +295,6 @@
   .pilar h3{font-size:1.1rem;color:var(--forest-deep);margin-bottom:12px;letter-spacing:0.02em;}
   .pilar p{color:#6A6A5C;font-size:0.95rem;}
 
-  /* ---------- PAGO CONTRAENTREGA (parallax) ---------- */
-  .riesgo{
-    color:var(--cream);text-align:center;
-    position:relative;overflow:hidden;
-    background:var(--forest-deep);
-  }
-  .riesgo-decor{
-    position:absolute;width:800px;height:800px;border-radius:50%;
-    background:radial-gradient(circle, rgba(184,147,90,0.18) 0%, transparent 70%);
-    top:-300px;left:50%;transform:translateX(-50%);
-    pointer-events:none;z-index:1;
-  }
-  .riesgo-inner{max-width:700px;margin:0 auto;position:relative;z-index:2;}
-  .riesgo h2{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,4vw,3rem);color:var(--white);margin-bottom:20px;}
-  .riesgo p{color:rgba(244,243,234,0.85);font-size:1.1rem;margin-bottom:14px;}
-  .riesgo-steps{display:flex;justify-content:center;gap:50px;margin-top:44px;flex-wrap:wrap;}
-  .riesgo-step{display:flex;flex-direction:column;align-items:center;gap:10px;}
-  .riesgo-step .num{font-family:'Cormorant Garamond',serif;font-size:2.4rem;color:var(--gold-light);font-weight:600;}
-  .riesgo-step span{font-size:0.85rem;color:rgba(244,243,234,0.7);text-transform:uppercase;letter-spacing:0.08em;}
-
   /* ---------- TESTIMONIOS placeholder ---------- */
   .testimonios-soon{background:var(--white);text-align:center;padding:70px 24px;}
   .testimonios-soon p{color:#8A8A78;font-size:0.95rem;font-style:italic;}
@@ -417,8 +397,7 @@
       <h1>Llevá tu bienestar un paso más allá, con decisiones mejor informadas.</h1>
       <p>Conocé KLOW, un compuesto de la línea Wellness de Vitalis Lab, seleccionado para quienes buscan explorar nuevas alternativas dentro del mundo de los péptidos.</p>
       <a href="https://wa.me/59176011280?text=Hola%2C%20quiero%20conocer%20m%C3%A1s%20sobre%20KLOW" class="btn-primary" target="_blank">Quiero conocer KLOW →</a>
-      <div class="hero-offer">KLOW + información clara + atención personalizada + pago contraentrega</div>
-      <p class="hero-micro">Sin pago anticipado. Coordinamos tu pedido y pagás al recibirlo.</p>
+      <div class="hero-offer">KLOW + información clara + atención personalizada</div>
     </div>
   </div>
 
@@ -452,7 +431,7 @@
   <div class="container">
     <div class="klow-grid">
       <div class="klow-visual reveal-scale" style="padding:0;overflow:hidden;">
-        <img src="assets/vial-klow.jpg" alt="KLOW - línea Wellness" style="width:100%;height:100%;object-fit:contain;padding:40px;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <img src="assets/lifestyle-meditacion.jpg" alt="KLOW - línea Wellness" style="width:100%;height:100%;object-fit:cover;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
         <div class="placeholder" style="display:none;flex-direction:column;align-items:center;justify-content:center;">
           <div class="icon">◈</div>
           <p>Foto de KLOW<span class="placeholder-flag">pendiente</span></p>
@@ -497,19 +476,6 @@
           <p>Nuestro equipo te acompaña en todo el proceso.</p>
         </div>
       </div>
-      <div class="offer-card">
-        <div class="offer-icon-panel">
-          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.3">
-            <path d="M8 16l16-8 16 8-16 8-16-8z"/>
-            <path d="M8 16v16l16 8 16-8V16"/>
-            <path d="M24 24v16"/>
-          </svg>
-        </div>
-        <div class="offer-body">
-          <h3>Pago contraentrega</h3>
-          <p>Recibís tu pedido y pagás al recibirlo.</p>
-        </div>
-      </div>
     </div>
   </div>
 </section>
@@ -524,16 +490,13 @@
     <div class="precio-card reveal-scale">
       <h3>KLOW</h3>
       <div class="precio-value">Bs 1.800</div>
-      <p class="precio-note">Pago contraentrega · sin adelanto</p>
       <ul class="precio-list">
         <li>KLOW</li>
         <li>Información del producto</li>
         <li>Atención personalizada</li>
         <li>Pedido por WhatsApp</li>
-        <li>Pago contraentrega</li>
       </ul>
       <a href="https://wa.me/59176011280?text=Hola%2C%20quiero%20pedir%20KLOW" class="btn-primary btn-block" target="_blank">Quiero conocer KLOW →</a>
-      <p class="hero-micro" style="margin-top:16px;">Coordinamos tu pedido por WhatsApp y pagás al recibirlo.</p>
     </div>
   </div>
 </section>
@@ -565,27 +528,6 @@
   </div>
 </section>
 
-<!-- 09 REDUCCION DE RIESGO -->
-<section class="riesgo">
-  <div class="riesgo-decor" id="riesgoDecor"></div>
-  <div class="container">
-    <div class="riesgo-inner reveal">
-      <span class="eyebrow" style="color:var(--gold-light);">Pago contraentrega</span>
-      <h2>Primero recibís. Después pagás.</h2>
-      <p>Queremos que tu experiencia de compra sea simple y transparente.</p>
-      <p>Por eso, los pedidos de KLOW se coordinan bajo modalidad pago contraentrega. Sin necesidad de realizar un pago anticipado.</p>
-      <div class="riesgo-steps stagger">
-        <div class="riesgo-step"><span class="num">1</span><span>Pedís</span></div>
-        <div class="riesgo-step"><span class="num">2</span><span>Recibís</span></div>
-        <div class="riesgo-step"><span class="num">3</span><span>Pagás</span></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-  </div>
-</section>
-
 <!-- Testimonios: en espera de material real -->
 <section class="testimonios-soon">
   <div class="container">
@@ -608,14 +550,6 @@
       <div class="faq-item" onclick="toggleFaq(this)">
         <div class="faq-q"><h3>¿Dónde puedo pedirlo?</h3><span class="faq-toggle">+</span></div>
         <div class="faq-a">Podés realizar tu pedido directamente por WhatsApp con nuestro equipo.</div>
-      </div>
-      <div class="faq-item" onclick="toggleFaq(this)">
-        <div class="faq-q"><h3>¿Cómo realizo el pago?</h3><span class="faq-toggle">+</span></div>
-        <div class="faq-a">Trabajamos con pago contraentrega para los pedidos disponibles bajo esta modalidad.</div>
-      </div>
-      <div class="faq-item" onclick="toggleFaq(this)">
-        <div class="faq-q"><h3>¿Tengo que pagar antes?</h3><span class="faq-toggle">+</span></div>
-        <div class="faq-a">No. La modalidad de compra es pago contraentrega.</div>
       </div>
       <div class="faq-item" onclick="toggleFaq(this)">
         <div class="faq-q"><h3>¿Puedo hacer preguntas antes de pedir?</h3><span class="faq-toggle">+</span></div>
@@ -649,9 +583,8 @@
     <div class="footer-pillars">
       <span>Información clara</span>
       <span>Atención profesional</span>
-      <span>Pago contraentrega</span>
     </div>
-    <p class="footer-meta">Santa Cruz de la Sierra · Bolivia &nbsp;|&nbsp; Instagram: <span class="placeholder-flag">agregar @usuario</span> &nbsp;|&nbsp; WhatsApp: <span class="placeholder-flag">pendiente</span></p>
+    <p class="footer-meta">Santa Cruz de la Sierra · Bolivia &nbsp;|&nbsp; Instagram: <span class="placeholder-flag">agregar @usuario</span> &nbsp;|&nbsp; WhatsApp: +591 76011280</p>
     <p class="footer-meta">© <span id="year"></span> Vitalis Lab. Todos los derechos reservados.</p>
   </div>
 </footer>
@@ -690,16 +623,6 @@
     document.querySelectorAll('.faq-item.open').forEach(i => i.classList.remove('open'));
     if(!wasOpen) item.classList.add('open');
   }
-
-  // Parallax decor in "riesgo" section
-  const riesgoDecor = document.getElementById('riesgoDecor');
-  const riesgoSection = document.querySelector('.riesgo');
-  window.addEventListener('scroll', () => {
-    if(!riesgoSection) return;
-    const rect = riesgoSection.getBoundingClientRect();
-    const speed = 0.15;
-    riesgoDecor.style.transform = `translate(-50%, ${rect.top * speed}px)`;
-  }, { passive:true });
 </script>
 
 </body>
